@@ -18,7 +18,7 @@ docker build -t milon27/hello-docker .
 #### list,run image
 ```
 docker images | docker image ls
-docker run hello-docker
+docker run milon27/hello-docker
 ```
 
 #### push to hub
