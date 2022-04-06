@@ -61,4 +61,6 @@ docker compose pull [service]
 docker compose build [service] 
 ```
 
+## view logs of a container
 
+docker logs -f container-id
