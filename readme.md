@@ -37,6 +37,11 @@ docker push milon27/hello-docker
 docker pull milon27/hello-docker
 ```
 
+#### docker volume
+- all volume ``` docker volume ls ```
+- remove all volume ``` docker volume rm $(docker volume ls -q) ````
+
+
 #### docker compose (run)
 ``` 
 docker compose run --rm [service] [CMD]
