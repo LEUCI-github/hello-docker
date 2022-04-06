@@ -20,6 +20,9 @@ docker build -t milon27/hello-docker .
 docker images | docker image ls
 docker run milon27/hello-docker
 ```
+Delete all image
+``` docker rmi $(docker images -q) ```
+
 
 #### push to hub
 ```
@@ -33,3 +36,24 @@ docker push milon27/hello-docker
 ```
 docker pull milon27/hello-docker
 ```
+
+#### docker compose (run)
+``` 
+docker compose run --rm [service] [CMD]
+```
+e.g. docker compose run --rm app sh
+e.g docker-compose exec -it [container_id] sh
+```
+docker compose build [service]
+```
+``` 
+docker compose push [service]
+```
+``` 
+docker compose pull [service]
+```
+``` 
+docker compose build [service] 
+```
+
+
