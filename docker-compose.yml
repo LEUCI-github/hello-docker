@@ -1,0 +1,6 @@
+services:
+
+  test-doc:
+    container_name: test-doc
+    build:
+      context: .
