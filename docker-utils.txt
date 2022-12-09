@@ -12,3 +12,4 @@ WARNING! This will remove:
   - all images without at least one container associated to them
   - all build cache
 
+### cleanup system: https://www.cloudbooklet.com/simple-ways-to-free-up-space-in-ubuntu-linux/
